@@ -1,0 +1,142 @@
+Mesg:15:13:37.588: Dtr: true Rts: true
+Mesg:15:13:37.590: Connection started
+Mesg:15:13:37.590: Printer reset requested - emergency:false
+Mesg:15:13:37.591: Dtr: false Rts: false
+Mesg:15:13:37.613: Dtr: true Rts: true
+Recv:15:13:37.617: Response while unconnected:Error:Format error
+Recv:15:13:37.617: Error:Format error
+Recv:15:13:37.617: Resend:43
+Recv:15:13:37.619: Ignore due to resend: ok
+Recv:15:13:37.631: Waiting for resend requests finished. Starting resends ...
+Send:15:13:37.631: N1 M110
+Recv:15:13:37.635: Connection verified by:ok
+Recv:15:13:37.635: ok
+Send:15:13:37.635: N1 M110
+Recv:15:13:37.639: ok
+Send:15:13:37.639: N2 M105
+Recv:15:13:37.643: ok 2
+Send:15:13:37.643: N3 M105
+Recv:15:13:37.648: T:25.47 /0 B:23.19 /0 B@:0 @:0
+Recv:15:13:37.648: ok 3
+Send:15:13:37.648: N4 M115 ; Get firmware capabilities and info
+Recv:15:13:37.652: T:25.47 /0 B:23.19 /0 B@:0 @:0
+Recv:15:13:37.652: ok 4
+Send:15:13:37.652: N5 M220 S100 ; Speed multiplier 100%
+Recv:15:13:37.654: FIRMWARE_NAME:Robin
+Recv:15:13:37.661: Printed filament:270.85m Printing time:4 days 0 hours 42 min
+Recv:15:13:37.661: PrinterMode:FFF
+Recv:15:13:37.661: ok 5
+Send:15:13:37.661: N6 M221 S100 ; Flow multiplier 100%
+Recv:15:13:37.665: SpeedMultiply:100
+Recv:15:13:37.665: ok 6
+Send:15:13:37.665: N7 G92 E0
+Recv:15:13:37.669: FlowMultiply:100
+Recv:15:13:37.669: ok 7
+Send:15:13:37.669: N8 G90
+Recv:15:13:37.673: ok 8
+Send:15:13:37.673: N9 M82
+Recv:15:13:37.677: ok 9
+Send:15:13:37.677: N10 G21 ; Use mm as unit
+Recv:15:13:37.681: ok 10
+Send:15:13:37.681: N11 M114
+Recv:15:13:37.685: ok 11
+Send:15:13:37.685: @echo Some printers don't implement timing, but can cause unexpected execution based on file name.
+Mesg:15:13:37.685: Some printers don't implement timing, but can cause unexpected execution based on file name.
+Send:15:13:37.685: @echo By triggering unknown command here we block it for real usage.
+Mesg:15:13:37.686: By triggering unknown command here we block it for real usage.
+Send:15:13:37.686: @echo So please ignore unknown command if it appears now.
+Mesg:15:13:37.686: So please ignore unknown command if it appears now.
+Send:15:13:37.686: N12 M75
+Recv:15:13:37.690: X:0.00 Y:0.00 Z:216.375 E:0.0000
+Recv:15:13:37.690: ok 12
+Send:15:13:37.690: N13 M77
+Recv:15:13:37.694: Unknown command:N12 M75 
+Recv:15:13:37.694: ok 13
+Send:15:13:37.694: @getIP
+Send:15:13:37.695: N14 M114
+Recv:15:13:37.697: Unknown command:N13 M77 
+Send:15:13:37.697: @startCodeProcessed
+Recv:15:13:37.700: ok 14
+Send:15:13:37.700: M117 192.168.178.79:3344
+Recv:15:13:37.705: X:0.00 Y:0.00 Z:216.375 E:0.0000
+Recv:15:13:37.705: ok 14
+Recv:15:13:37.709: Error:Format error
+Recv:15:13:37.709: Resend:15
+Recv:15:13:37.711: Ignore due to resend: ok
+Recv:15:13:37.723: Waiting for resend requests finished. Starting resends ...
+Send:15:13:37.723: N1 M110
+Recv:15:13:37.727: ok
+Send:15:13:38.647: N2 M105
+Recv:15:13:38.653: ok 2
+Recv:15:13:38.655: T:26.81 /0 B:22.92 /0 B@:0 @:0
+Send:15:13:39.649: N3 M105
+Recv:15:13:39.654: ok 3
+Recv:15:13:39.657: T:25.12 /0 B:22.36 /0 B@:0 @:0
+Recv:15:13:40.654: wait
+Send:15:13:40.654: N4 M105
+Recv:15:13:40.659: ok 4
+Recv:15:13:40.662: T:25.47 /0 B:22.78 /0 B@:0 @:0
+Send:15:13:41.654: N5 M105
+Recv:15:13:41.659: ok 5
+Recv:15:13:41.662: T:25.47 /0 B:22.22 /0 B@:0 @:0
+Recv:15:13:42.659: wait
+Send:15:13:42.659: N6 M105
+Recv:15:13:42.664: ok 6
+Recv:15:13:42.667: T:25.35 /0 B:22.50 /0 B@:0 @:0
+Send:15:13:43.660: N7 M105
+Recv:15:13:43.665: ok 7
+Recv:15:13:43.668: T:25.47 /0 B:22.50 /0 B@:0 @:0
+Send:15:13:43.698: M117 Finished
+Recv:15:13:43.702: ok 7
+Send:15:13:44.663: N8 M105
+Recv:15:13:44.668: ok 8
+Recv:15:13:44.671: T:25.70 /0 B:22.78 /0 B@:0 @:0
+Recv:15:13:45.669: wait
+Send:15:13:45.669: N9 M105
+Recv:15:13:45.674: ok 9
+Recv:15:13:45.677: T:25.35 /0 B:22.50 /0 B@:0 @:0
+Recv:15:13:46.674: wait
+Send:15:13:46.674: N10 M105
+Recv:15:13:46.679: ok 10
+Recv:15:13:46.682: T:26.70 /0 B:22.50 /0 B@:0 @:0
+Recv:15:13:47.680: wait
+Send:15:13:47.680: N11 M105
+Recv:15:13:47.685: ok 11
+Recv:15:13:47.688: T:25.58 /0 B:22.36 /0 B@:0 @:0
+Send:15:13:48.680: N12 M105
+Recv:15:13:48.685: ok 12
+Recv:15:13:48.688: T:25.70 /0 B:22.64 /0 B@:0 @:0
+Recv:15:13:49.686: wait
+Send:15:13:49.686: N13 M105
+Recv:15:13:49.691: ok 13
+Recv:15:13:49.694: T:25.70 /0 B:22.64 /0 B@:0 @:0
+Recv:15:13:50.692: wait
+Send:15:13:50.692: N14 M105
+Recv:15:13:50.697: ok 14
+Recv:15:13:50.700: T:26.93 /0 B:22.92 /0 B@:0 @:0
+Recv:15:13:51.698: wait
+Send:15:13:51.698: N15 M105
+Recv:15:13:51.703: ok 15
+Recv:15:13:51.706: T:25.35 /0 B:22.64 /0 B@:0 @:0
+Send:15:13:52.615: @getip
+Send:15:13:52.618: M117 192.168.178.79:3344
+Recv:15:13:52.625: ok 15
+Recv:15:13:52.625: Error:Format error
+Recv:15:13:52.628: Resend:16
+Recv:15:13:52.630: Ignore due to resend: ok
+Recv:15:13:52.642: Waiting for resend requests finished. Starting resends ...
+Send:15:13:52.642: N1 M110
+Recv:15:13:52.646: ok
+Send:15:13:52.707: N2 M105
+Recv:15:13:52.712: ok 2
+Recv:15:13:52.715: T:26.16 /0 B:22.22 /0 B@:0 @:0
+Recv:15:13:53.712: wait
+Send:15:13:53.712: N3 M105
+Recv:15:13:53.717: ok 3
+Recv:15:13:53.720: T:25.81 /0 B:22.78 /0 B@:0 @:0
+Recv:15:13:54.717: wait
+Send:15:13:54.718: N4 M105
+Recv:15:13:54.723: ok 4
+Recv:15:13:54.725: T:26.81 /0 B:22.78 /0 B@:0 @:0
+Recv:15:13:55.723: wait
+Send:15:13:55.723: N5 M105
